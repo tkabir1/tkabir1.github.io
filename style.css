@@ -12,6 +12,9 @@ header {
   text-align: center;
   border-bottom: 1px solid #ddd;
 }
+strong {
+  font-weight: bold;
+}
 
 .profile-pic {
   width: 150px;
