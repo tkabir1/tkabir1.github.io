@@ -40,6 +40,36 @@ ul {
 ul li {
   margin-bottom: 10px;
 }
+.pub {
+  margin-bottom: 25px;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 1.1rem;
+  margin-bottom: 5px;
+}
+
+.authors {
+  font-size: 0.95rem;
+  color: #555;
+  margin: 2px 0;
+}
+
+.venue {
+  font-style: italic;
+  margin: 2px 0;
+}
+
+.links a {
+  font-size: 0.9rem;
+  color: #1a0dab;
+  margin-right: 5px;
+}
+
+.links a:hover {
+  text-decoration: underline;
+}
 
 footer {
   text-align: center;
