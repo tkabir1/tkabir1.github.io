@@ -12,11 +12,6 @@ header {
   text-align: center;
   border-bottom: 1px solid #ddd;
 }
-.my-name {
-  font-weight: 700;
-  font-size: 1.05rem;
-  color: #000;
-}
 strong {
   font-weight: bold;
 }
@@ -60,13 +55,13 @@ ul li {
 
 .authors {
   font-size: 0.95rem;
-  color: #555;
-  margin: 2px 0;
+  color: #444;
 }
+
 .authors .my-name {
-  font-weight: 700;
-  font-size: 1.15rem;   /* makes it stand out */
-  color: #000;          /* darker for emphasis */
+  font-weight: 800;
+  font-size: 1.15rem;
+  color: #111;
 }
 
 .venue {
