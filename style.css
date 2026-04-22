@@ -12,6 +12,11 @@ header {
   text-align: center;
   border-bottom: 1px solid #ddd;
 }
+.my-name {
+  font-weight: 700;
+  font-size: 1.05rem;
+  color: #000;
+}
 strong {
   font-weight: bold;
 }
