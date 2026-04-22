@@ -63,6 +63,11 @@ ul li {
   color: #555;
   margin: 2px 0;
 }
+.authors .my-name {
+  font-weight: 700;
+  font-size: 1.15rem;   /* makes it stand out */
+  color: #000;          /* darker for emphasis */
+}
 
 .venue {
   font-style: italic;
