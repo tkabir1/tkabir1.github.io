@@ -77,18 +77,24 @@ Tasnim Kabir is a graduate student in Computer Science at the University of Mary
         <a href="https://go.umd.edu/audioqa">Survey</a> /
         </p>
 
-  <details class="tldr">
-    <summary>TL;DR</summary>
-    <p>
-      AUDITA is a challenging audio QA benchmark revealing current models' struggle
-      with deep audio reasoning compared to humans. We introduce AUDITA, a large-scale
-      benchmark of human-authored audio questions grounded in real-world settings.
-      Humans substantially outperform state-of-the-art audio-language models
-      (32.1% vs. 8.9% free-form; 60.2% vs. 15.6% MCQ). IRT analysis reveals
-      large and consistent human-model ability gaps, especially on high-difficulty
-      reasoning questions.
-    </p>
-  </details>
+  <span class="tldr-inline">
+  <a href="javascript:void(0);" onclick="toggleTLDR()">TL;DR</a>
+</span>
+
+<div id="tldr-text" style="display:none;">
+  <p>
+    AUDITA is a challenging audio QA benchmark revealing current models' struggle with deep audio reasoning compared to humans. We introduce AUDITA, a large-scale benchmark of human-authored audio questions grounded in real-world settings. 
+    Humans substantially outperform state-of-the-art audio-language models (32.1% vs. 8.9% free-form; 60.2% vs. 15.6% MCQ). 
+    IRT analysis reveals large and consistent human-model ability gaps, especially on high-difficulty reasoning questions.
+  </p>
+</div>
+
+<script>
+function toggleTLDR() {
+  const tldr = document.getElementById("tldr-text");
+  tldr.style.display = tldr.style.display === "none" ? "block" : "none";
+}
+</script>
 </div>
 
     <div class="pub">
